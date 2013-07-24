@@ -1,0 +1,23 @@
+/* Hide from IE-Mac \*/ 
+#main-area {
+overflow : visible !important; 
+}
+
+.accountInfo,
+.themeInfo,
+.userInfo,
+.companyInfo,
+.billingInfo,
+.shippingInfo {
+page-break-before : always;
+overflow : visible;
+}
+
+#menu{
+display : none;
+}
+
+#breadcrumb-container{
+display : none;
+}
+/* End hide */
